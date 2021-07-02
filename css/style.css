@@ -1,0 +1,225 @@
+@charset "UTF-8";
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  background-color: #888;
+  padding: 20px 70px;
+}
+
+nav ul li {
+  font-size: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav li a:hover{
+color: red;
+}
+
+
+#top {
+  height: 600px;
+  background: url(../img/top.png);
+  background-repeat: repeat;
+  background-size: 30%;
+}
+
+.top_wrap a {
+  font-size: 30px;
+  color: #fff;
+  background-color: #007;
+  padding: 20px 50px;
+  float: right;
+  margin: 275px;
+  border-radius: 4px;
+}
+
+.top_wrap a:active {
+  position: relative;
+  top: 7px;
+}
+
+.top_wrap a:hover {
+  color: red;
+}
+
+#service {
+  width: 80%;
+  margin: 100px auto;
+}
+
+.section_title {
+  font-size: 40px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #75d5ff;
+  padding-top: 100px;
+}
+
+.service_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service_left {
+  margin-left: 20px;
+  position: relative;
+}
+
+.service1 {
+  position: absolute;
+  top: 80px;
+  left: 40px;
+}
+
+.service2 {
+  position: absolute;
+  top: 160px;
+  left: 80px;
+}
+.service3 {
+  margin-left: 150px;
+  position: absolute;
+}
+
+.service4 {
+  margin-left: 150px;
+  position: absolute;
+  top: 80px;
+  left: 160px;
+}
+
+.service5 {
+  margin-left: 150px;
+  position: absolute;
+  top: 160px;
+  left: 200px;
+}
+
+.service_left img {
+  width: 20%;
+  height: auto;
+}
+
+.service_right h3 {
+  color: #75d5ff;
+  font-size: 20px;
+  padding: 20px 0;
+}
+
+.service_right span {
+  color: red;
+  font-weight: bold;
+}
+
+#news {
+  width: 80%;
+  margin: 100px auto;
+}
+
+.news_wrap {
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+.news_wrap p {
+  line-height: 2.5;
+}
+
+#price {
+  width: 80%;
+  margin: 100px auto;
+}
+
+.price_wrap table {
+  border: double #75d5ff 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.price_wrap table tr {
+  border: solid #75d5ff 2px;
+  padding: 10px;
+}
+
+.price_wrap table th {
+  border: solid #75d5ff 2px;
+  padding: 10px;
+}
+
+.price_wrap table td {
+  border: solid #75d5ff 2px;
+  padding: 10px;
+}
+
+#contact {
+  background: url(../img/top.png);
+  background-repeat: no-repeat;
+  color: white;
+}
+
+#contact h2 {
+  padding: 40px 0;
+}
+
+.form {
+   width: 70%;
+  margin: 0 auto;
+}
+
+label {
+  display: inline-block;
+  width: 30%;
+  line-height: 2;
+}
+
+input,
+textarea {
+  box-sizing: border-box;
+  border: solid #ddd 1px;
+  width: 65%;
+  margin-bottom: 15px;
+}
+
+input {
+  padding: 6px;
+}
+
+textarea {
+  vertical-align: top;
+  height: 200px;
+}
+
+.button_submit {
+  text-align: center;
+}
+
+.button {
+  padding: 10px 50px;
+  background-color: #555;
+  margin: 50px 0;
+  font-weight: bold;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.button:active {
+  position: relative;
+  top: 7px;
+}
+.button:hover {
+  color: red;
+}
+#footer {
+  background-color: #444;
+  padding: 50px;
+  text-align: center;
+  color: #fff;
+}
